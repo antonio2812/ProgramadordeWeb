@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="aulas html">
+<meta name="keywords" content="HTML-CSS-JAVASCRIPT">
+<meta name="author" content="Antônio Carlos">
+<link rel="stylesheet" href="css/estilos.css" type="text/css">
+<link rel="shortcut icon" href="html.ico" type="image/x-icon">
+<title>AULAS HTML-5</title>
+
+</head>
+<body id="conteudo">
+
+<header id="topo">
+<section>
+<img class="imagem1" src="imagem/logo.png" alt="logo da obra social dom bosco na horizontal com as cores branco, azul e vermelho">
+<img class="imagem2" src="imagem/assistencia-e-desenvolvimento-social_centralizado.png" alt="logo da assistencia social">
+</section>
+</header>
+
+<section>
+<nav id="links">
+<a class="link1" href="layout.html">layout</a>
+<a class="link2" href="Comentários.html">Comentários</a>
+<a class="link2" href="formulario.html">formulario</a>
+<a class="link3" href="metadados.html">metadados</a>
+<a class="link4" href="listas_ordenadas.html">Listas Ordenadas</a>
+<a class="link5" href="listas_nao_ordenadas.html">Listas nao ordenadas</a>
+</nav>
+</section><br>
+
+<ul id="breadcrumb">
+<li><a href="index.html">Início</a></li>
+<li>Formulário</li>
+</ul>
+
+<h1 id="titulo_principal">FALE CONOSCO</h1>
+<form>
+<fieldset class="dados1">
+<legend class="legenda1">Dados Pessoais</legend>
+<label class="rotulo1" for="Nome Completo">Nome Completo</label><br>
+<input type="text" name="Nome_Completo" id="Nome_Completo" placeholder="Digite o Seu Nome" required><br>
+<label class="rotulo2" for="Data de Nascimento">Data de Nascimento</label><br>
+<input type="date" name="Data_de_Nascimento" id="Data_de_Nascimento" placeholder="Digite a Sua Data de Nascimento" required><br>
+<label class="rotulo3" for="Telefone">Telefone</label><br>
+<input type="tel" name="Telefone" id="Telefone" placeholder="(99)99999-9999" required><br>
+<label class="rotulo4" for="Enderço de E-mail">Endereço de E-mail</label><br>
+<input type="email" name="E-mail" id="E-mail" placeholder="Digite o Seu E-mail" required><br>
+<label class="rotulo5" for="Senha">Senha</label><br>
+<input type="password" name="Senha" id="Senha" placeholder="Digite a Sua Senha" required><br>
+</fieldset>
+
+<fieldset class="dados2">
+<legend class="legenda2">Dados de Endereço</legend>
+<label class="rotulo6" for="CPF">CPF</label><br>
+<input type="text" name="CPF" id="CPF" placeholder="9999.9999.99" required><br>
+<label class="rotulo7" for="CEP">CEP</label><br>
+<input type="text" name="CEP" id="CEP" placeholder="99999-999" required><br>
+<label class="rotulo8" for="Rua/Av">Rua/Av</label><br>
+<input type="text" name="Rua" id="Rua" placeholder="Digite a Sua Rua" required><br>
+<label class="rotulo9" for="Estado">Estado</label><br>
+<select class="lista1">
+<option>São Paulo</option>
+<option>Rio de Janeiro</option>
+<option>Minas Gerais</option>
+</select>
+<input type="text" name="Estado" id="Estado" placeholder="Digite o Seu Estado" required><br>
+<label class="rotulo10" for="Complemento">Complemento</label><br>
+<input type="text" name="Complemento" id="Complemento" placeholder="Digite o Complemento" required><br>
+</fieldset>
+
+<fieldset class="dados3">
+<legend class="legenda3">Dados da Mensagem</legend>
+<label class="rotulo11" for="Assunto">Assunto</label><br>
+<select name="Assunto" id="Assunto" required>
+<option value=""selected disabled>Selecione Uma Opção</option>
+<option value="Reclamação">Reclamação</option>
+<option value="sugestão">Sugestão</option>
+<option value="elogio">Elogio</option>
+<option value="outro">outro</option>
+</select><br>
+<label class="rotulo12" for="Mensagem">Mensagem</label><br>
+<textarea name="mensagem" id="Area" rows="10" cols="40" required></textarea><br>
+<input type="submit" name="enviar" id="enviar" value="enviar">
+<input type="reset" name="limpar" id="limpar" value="limpar">
+</fieldset>
+</form><br>
+
+<footer id="rodape">
+<p>Desenvolvido por Antônio Carlos de Souza Junior</p>
+<p>Todos os direitos autorais reservados &copy;2022.</p>
+</footer> 
+
+</body>
+</html>

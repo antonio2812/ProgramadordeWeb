@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="aulas html">
+<meta name="keywords" content="HTML-CSS-JAVASCRIPT">
+<meta name="author" content="Antônio Carlos">
+<title>AULAS HTML-5</title>
+<link rel="stylesheet" href="css/estilos.css" type="text/css">
+<link rel="shortcut icon" href="html.ico" type="image/x-icon">
+</head>
+<body id="conteudo">
+
+<header id="topo">
+<div id="acessibilade">
+<ul id="atalhos">
+<li><a href="#conteudo" accesskey="1" title="ir para o conteudo"> Ir para o conteudo [1]</a>
+<a href="#menu" accesskey="2" title="ir para o menu de navegação">Ir para o menu [2]</a>
+<a href="#rodape" accesskey="3" title="Ir para o rodapé"> Ir para o rodapé [3]</a>
+<a href="acessibilidade.html" id="pgacess" title="Ir para pagina de acessibilidade">ACESSIBILIDADE</a>
+<a href="javacript:void(0);" class="contraste" id="contraste">CONTRASTE</a>
+<a href="javacript:void(0);" class="contraste"
+id="semcontraste"> SEM CONTRASTE</a>
+<a href="javacript:void(0);" class="fonte" id="aumenta">A +</a>
+<a href="javacript:void(0);" class="fonte" id="diminui">A -</a>
+</li>
+</ul>
+
+
+
+
+</div>
+<img class="imagem1" src="imagem/logo.jpg" alt="logo da obra social dom bosco na horizontal com as cores branco azul e vermelho">
+<img class="imagem2" src="imagem/assistencia-e-desenvolvimento-social_centralizado.png" alt="logo da assistencia social">
+
+<!-- Menu Responsivo -->
+<label for="bt_menu"><img src="imagem/menu.png">
+</label>
+</header>
+
+<nav id="links">
+<a class="link1" href="layout.html">layout</a>
+<a class="link2" href="comentarios.html">comentarios</a>
+<a class="link2" href="formulario.html">formulario</a>
+<a class="link3" href="metadados.html">metadados</a>
+<a class="link4" href="lista_ordenada.html">Listas Ordenadas</a>
+<a class="link4" href="lista_nao_ordenada.html">Listas nao ordenadas</a>
+</nav>
+
+<div vw class="enabled">
+<div vw-access-button class="active"></div>
+<div vw-plugin-wrapper>
+<div class="vw-plugin-top-wrapper"></div>
+</div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+<main>
+<ul id="breadcrumb">
+<li><a href="index.html">Início</a></li>
+<li>Comentários</li>
+</ul>
+
+<audio id="audio1" controls>
+<source src="audio/comentarios.m4a" type="audio/mp3">
+Seu Navegador está desatualizado e Não suporta o elemento audio
+</audio>
+<section>
+<h1 id="titulo_principal">COMENTÁRIOS</h1>
+<p class="paragrafo1">Comentários em HTML não são exibidos no navegador, mas podem ajudar a documentar seu código-fonte HTML.om os comentários, você pode colocar notificações e lembretes no seu código HTML.</p>
+</section>
+</main>
+
+<img src="imagem/comentarios.png" alt="Imagem comentários aparecendo na tela"><br>
+
+<video controls> 
+<source src="video/Programador_de_web.mp4" type="video/mp4">
+Seu navegador está desatualizado e não suporta o elemento video.
+</video>
+<iframe src="https://www.youtube.com/embed/MYJK303sdN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<footer id="rodape">
+<p>Desenvolvido por Antônio Carlos de Souza Junior</p>
+<p>Todos os direitos autorais reservados &copy;2022.</p>
+<h4>MAPA DO SITE</h4>
+<nav id="mapa">
+<a class="mapa1" href="layout.html">layout</a><br>
+<a class="mapa2" href="comentarios.html">comentarios</a><br>
+<a class="mapa3" href="formulario.html">formulario</a><br>
+<a class="mapa4" href="metadados.html">metadados</a><br>
+<a class="mapa5" href="lista_ordenada.html">Listas Ordenadas</a><br>
+<a class="mapa6" href="lista_nao_ordenada.html">Listas nao ordenadas</a><br>
+</nav>
+</footer> 
+
+</body>
+</html>
